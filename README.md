@@ -1,6 +1,24 @@
 # Sales taxes problem
 This problem requires some kind of input. You are free to implement any mechanism for feeding input into your solution (for example, using hard coded data within a unit test). You should provide sufficient evidence that your solution is complete by, as a minimum, indicating that it works correctly against the supplied test data.
 
+## RUNNING CODE
+
+Execute `./main.py [input_file1]`. **Note: python3 required!**
+
+Example:
+
+```sh
+./main.py in/in_all
+# or
+./main.py in/in01 in/in02 in/in03 in/in_all
+```
+
+
+## CONTRIBUTING
+
+Take a look at [CONTRIBUTING.md](CONTRIBUTING.md)
+
+
 ## PROBLEM: SALES TAXES
 
 **Basic sales tax** is applicable at a rate of **10%** on all goods, **except** books, food, and medical products that are exempt. **Import duty** is an additional sales tax applicable on all imported goods at a rate of 5%, with no exemptions.
